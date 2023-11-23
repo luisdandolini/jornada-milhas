@@ -1,0 +1,14 @@
+.container-depoimentos {
+  width: 250px;
+  height: 180px;
+  background-color: #FEF7FF;
+  padding: 12px 24px 12px 16px;
+  .content {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .nome-pessoa {
+    font-weight: bold;
+  }
+}
