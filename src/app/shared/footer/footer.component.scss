@@ -1,0 +1,15 @@
+.container-footer {
+  background-color: black;
+  color: white;
+  padding: 3rem 16rem;
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    .logo-footer {
+      width: 160px;
+    }
+  }
+}
