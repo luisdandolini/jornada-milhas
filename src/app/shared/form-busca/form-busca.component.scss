@@ -1,0 +1,30 @@
+.form-busca {
+  margin: 40px 0;
+  display: block;
+  .flex-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 16px 0;
+  }
+  .input-container {
+    margin-bottom: -1.25em;
+    width: 230px;
+  }
+  .mat-button-toggle-checked {
+    background-color: #F7F2FA;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .input-data {
+    margin-right: 1rem;
+    margin-top: 1rem;
+    width: 160px;
+  }
+  .input-data-secondary {
+    margin-top: 1rem;
+    width: 160px;
+  }
+}
