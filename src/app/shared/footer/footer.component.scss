@@ -1,15 +1,25 @@
-.container-footer {
+.app-footer {
   background-color: black;
   color: white;
-  padding: 3rem 16rem;
-
-  .footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  .inner {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    
-    .logo-footer {
-      width: 160px;
+    align-items: center;
+    img {
+      max-width: 100%;
+      max-height: 40px;
+    }
+    ul {
+      padding: 0;
+      list-style: none;
+      &.socials {
+        li {
+          text-align: center;
+        }
+      }
     }
   }
 }

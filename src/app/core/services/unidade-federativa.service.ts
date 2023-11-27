@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, shareReplay } from 'rxjs';
 import { environment } from 'src/environments/environment';
-import { UnidadeFederativa } from '../types/types';
+import { UnidadeFederativa } from '../types/type';
 
 @Injectable({
   providedIn: 'root'
