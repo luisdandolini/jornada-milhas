@@ -1,11 +1,11 @@
-<div class="container-depoimentos">
+<div class="container-depoimentos" *ngFor="let depoimento of depoimentos">
   <div class="content">
-    <img src="assets/images/depoimentos.png" alt="Depoimentos">
-    <div>
+    <img src="{{depoimento.avatar}}" alt="Depoimentos">
+    <div id={{depoimento.id}}>
       <p>
-        A Jornada foi uma das melhores agências de viagens que eu já experimentei. O serviço ao cliente foi excepcional, e toda a equipe foi muito atenciosa e prestativa.
+        {{depoimento.texto}}
       </p>
-      <p class="nome-pessoa">Talita Magalhães</p>
+      <p class="nome-pessoa">{{depoimento.autor}}</p>
     </div>
   </div>
 </div>
