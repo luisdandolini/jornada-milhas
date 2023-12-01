@@ -29,7 +29,6 @@ export class DropdownUfComponent implements OnInit {
     this.unidadeFederativaService.listar()
       .subscribe(dados => {
         this.unidadesFederativas = dados
-        console.log(this.unidadesFederativas)
       })
     this.filteredOptions$ = this.control.valueChanges.pipe(
       startWith(''),
