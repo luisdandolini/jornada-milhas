@@ -35,7 +35,7 @@ export class LoginComponent implements OnInit{
           this.router.navigateByUrl('/')
         },
         error: (err) => {
-          console.log('Errro no login', err)
+          console.log('Error no login', err)
         }
       })
   }

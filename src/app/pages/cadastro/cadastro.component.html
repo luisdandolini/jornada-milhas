@@ -83,16 +83,11 @@
               <mat-error *ngIf="cadastroForm.get('cidade')?.errors?.['required']">Cidade obrigatório</mat-error>
             </mat-form-field>
 
-            <mat-form-field appearance="outline" class="input-registro">
-              <mat-label>Estado</mat-label>
-              <input 
-                matInput 
-                type="text" 
-                placeholder="+XX XXXX-XXXX"
-                formControlName="estado"
-              >
-              <mat-error *ngIf="cadastroForm.get('estado')?.errors?.['required']">Estado obrigatório</mat-error>
-            </mat-form-field>
+            <app-dropdown-uf
+              label="Estado"
+              placeholder="Estado"
+              [control]="estadoControl">
+            </app-dropdown-uf>
           </div>
 
           <div class="container-forms">
