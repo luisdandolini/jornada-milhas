@@ -1,0 +1,82 @@
+.cadastro-component {
+  max-width: 50%;
+  min-height: 72%;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem auto;
+  box-shadow: 0px -5px 15px 0px rgba(0, 0, 0, 0.35);
+
+
+  .cadastro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+
+    mat-card-header {
+      margin-bottom: 24px;
+      justify-content: center;
+
+      mat-card-title {
+        font-size: 32px;
+        font-weight: 400;
+      }
+    }
+
+    mat-card-content {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    mat-card-actions {
+      display: flex;
+      flex-direction: column;
+      align-items: normal;
+
+      button {
+        margin: 0 8px;
+        margin-bottom: 16px;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .container-forms {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .container-forms-date {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: -1rem;
+    }
+
+    .container-genero {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      mat-label {
+        margin-left: .8rem;
+      }
+    }
+
+    .input-registro {
+      width: 300px;
+    }
+
+    .input-container {
+      margin-bottom: 1.25em;
+  }
+  }
+}
